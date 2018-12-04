@@ -26,7 +26,7 @@ class Queue {
     return Object.is(this.queue.length, this.MAX_SIZE);
   }
 
-  isEmpty () {
+  isEmpty() {
     return Object.is(this.queue.length, 0);
   }
 
